@@ -2,7 +2,7 @@ const calcularPerimetro = (a, b, c) => a + b + c;
 const calcularArea = (h, b) => (h * b) / 2;
 
 let continuar = true;
-
+alert("Calculador de perimetros y areas de triangulos");
 while (continuar) {
     let a = parseFloat(prompt("Ingrese lado a"));
     let b = parseFloat(prompt("Ingrese lado b"));
